@@ -1,4 +1,4 @@
-@media (min-width: 600px) {
+@media (min-width: 1000px) {
 
 .container {
 	height: 100vh;
@@ -27,12 +27,13 @@
 
 .class {
 	height: 1.2em;
+	width: 100%;
 }
 
 .bracket {
     display: block;
     position: absolute;
-    right: 120px;
+    right: 35%;
     margin-top: .5em;
 }
 
@@ -71,6 +72,8 @@
 h1 {
 	float: right;
 	font-size: .7em;
+    margin: 0;
+    padding: .2em;
 }
 
 h1:hover {
@@ -78,7 +81,6 @@ h1:hover {
     font-weight: 900;
     -webkit-transition: letterspacing .1s;
     transition: letter-spacing .1s;
-
 }
 
 h2 { 
@@ -90,6 +92,7 @@ h2 {
     font-family: 'Lato', sans-serif;
     font-style: italic;
     font-size: .5em;
+    margin: 0;
 }
 
 h3 {
@@ -115,8 +118,6 @@ h4 {
 .subtitle h3 {
 	display: none;
 }
-
-
 
 span {
     margin-top: auto;

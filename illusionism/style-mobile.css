@@ -1,7 +1,7 @@
 * { box-sizing: border-box; } 
 
 body {
-    background-color: #20B2AA;
+    background-color: #696969;
 }
 
 div {
@@ -64,6 +64,17 @@ button {
     bottom: 0px;
 }
 
+.illusionism-position-class {
+    position: absolute;
+    padding-top: 2%;
+    padding-left: 3%;
+    top: 70px;
+    bottom: 0px;
+    transform: rotate(270deg);
+	margin-left: -1.5em;
+
+}
+
 .illusionism {
     font-size: 2em;
     font-family: Merriweather;
@@ -103,13 +114,15 @@ button {
     width: 8em;
     position: absolute;
     text-align: left;
-    right: 0;
+    right: 20%;
 
 }
         
 .group{
-    margin-right: 150px;
+    margin-right: 40%;
     display: block;
+    height: auto;
+    overflow: hidden;
 }
 
 .title {
@@ -119,8 +132,9 @@ button {
 .class {
     height: 2.5em;
     display: block;
-    float: left;
+    float: right;
     padding-top: 5px;
+    width: 60%;
 }
 
 h1 {
@@ -197,28 +211,36 @@ body {
 
 .class-text {
 	padding: .75em;
-	margin-top: 7.5em;
+	margin-left: 8%;
+	margin-right: 8%;
+	width: 84%;
+	background-color: #030301;
+	overflow: hidden;
+	min-height: 100vh;
 }
 
 .class-header {
 	height: 6em;
 }
 
-.class-nav{
-	transform: translateY(-120px); 
-}
 
 p {
 	font-family: 'Lato';
 	font-size: 1.2em;
 	line-height: 1.5em;
 	padding-bottom: 1em;
+	color: #888888;
+	margin-top: 0;
 }
 
 .class-title {
     font-family: 'Lato';
     font-size: 1.6em;
     letter-spacing: .08em;
+    font-style: normal;
+    color: #FFFFF3;
+    text-transform: uppercase;
+    float: left;
 }
 
 

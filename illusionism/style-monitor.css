@@ -22,6 +22,8 @@ h1 {
 
 h2 {
 	font-size: .7em;
+	float: right;
+	text-align:right;
 }
 
 h3 {
@@ -29,9 +31,8 @@ h3 {
 }
 
 .class {
-	height: 1.5em;
+	height: auto;
 }
-
 
 span.bracket-1 {
     height: 1.6em;
@@ -76,6 +77,16 @@ span.bracket-4 {
 
 }
 
+.subtitle-class {
+	display: block;
+	position: absolute;
+	text-align: right;
+	transform: rotate(270deg);
+	margin-top: 30em;
+	margin-left: -100px;
+
+}
+
 .subtitle h3 {
 	display: block;
 	font-family: 'Lato';
@@ -96,7 +107,7 @@ span.bracket-4 {
 #nav {
 	display: block;
 	background-color: unset;
-	position: absolute;
+	position: fixed;
 	bottom: 0em;
 	margin-top: auto;
 
@@ -104,7 +115,7 @@ span.bracket-4 {
 
 h4 {
 	font-size: 1em;
-	color: #030301;
+	color: #FFFFF3;
 	line-height: 1em;
 	display: inline-block;
 	margin-right: 1em;
@@ -137,6 +148,133 @@ h4 {
 	right: -40px;
 	bottom: 8em;
 }
+
+.second-class {
+	transform: rotate(270deg);
+	position: absolute;
+	right: -190px;
+	bottom: 14em;
+}
+
+.theme {
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+.summary {
+	margin-left: 7.5%;
+	width: 40%;
+	padding-top: 4em;
+	display: inline-block;
+	float: left;
+}
+
+.images-box {
+	width: 40%;
+	margin-left: 5%;
+	margin-right: 7.5%;
+	padding-top: 4em;
+	display: inline-block;
+}
+
+img {
+	width: 100%;
+	padding-bottom: 1em;
+
+}
+
+.class-title {
+	margin-left: 5%;
+	width: 100%;
+}
+
+.class-text h2{
+	font-family: 'Merriweather';
+	font-size: 1.5em;
+	color: #FFFFF3;
+	text-transform: initial;
+	text-align: left;
+	float: left;
+}
+
+p{
+	font-size: 1.1em;
+	line-height: 1.5em;
+	color: #999999;
+
+}
+
+h5 {
+	font-family: 'Lato';
+	font-size: .8em;
+	text-transform: uppercase;
+	letter-spacing: .5em;
+	font-weight: 1000;
+	line-height: 1em;
+	color: #FF4365;
+	margin: 0;
+	padding-top: 1.5em;
+}
+
+h6 {
+	font-family: 'Lato';
+	font-size: .8em;
+	text-transform: uppercase;
+	letter-spacing: .5em;
+	font-weight: 1000;
+	line-height: 1em;
+	color: #FF4365;
+	margin: 0;
+	padding-bottom: .5em;
+}
+
+.subhead {
+	margin-left: 5%;
+	margin-bottom: -10px;
+	margin-top: .5em;
+}
+
+.in-class-assignment {
+	width: 40%;
+	margin-left: 5%;
+	margin-right: 7.5%;
+	padding-top: 4em;
+	display: inline-block;
+}
+
+.about {
+	margin-left: 7.5%;
+	width: 40%;
+	padding-top: 4em;
+	display: inline-block;
+	float: left;
+}
+
+a {
+	text-decoration: none;
+	color:#FFFFF3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 }
