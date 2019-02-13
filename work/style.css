@@ -105,15 +105,44 @@ h2 {
 
 
 img {
-	width: 100%;
+	min-width: 100%;
+	min-height: 100%;
 }
 
 
-[class*="drawing-"] {
+[class*="drawing-"], [class*="painting-"], [class*="gd-"], [class*="sketch-"]  {
   	background-size: cover;
 	background-color: #fff;
 	background-position: center;
 }
+
+.overlay {
+  position: absolute;
+  top: 5px;
+  bottom: 5px;
+  left: 5px;
+  right: 5px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container {
+	position: relative;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+
+.info {
+}
+
+
+
+
+
 
 .drawing-1 { background-image: url(images/drawings/drawing_1.jpg);}
 .drawing-2 { background-image: url(images/drawings/drawing_2.jpg);}
@@ -123,6 +152,27 @@ img {
 .drawing-6 { background-image: url(images/drawings/drawing_6.jpg);}
 .drawing-7 { background-image: url(images/drawings/drawing_7.jpg);}
 
+.painting-1 {background-image: url(images/paintings/painting_1.jpg);}
+.painting-2 {background-image: url(images/paintings/painting_2.jpg);}
+.painting-3 {background-image: url(images/paintings/painting_3.jpg);}
+.painting-4 {background-image: url(images/paintings/painting_4.jpg);}
+.painting-5 {background-image: url(images/paintings/painting_5.jpg);}
+.painting-6 {background-image: url(images/paintings/painting_6.jpg);}
+.painting-7 {background-image: url(images/paintings/painting_7.jpg);}
+
+.gd-1 {background-image: url(images/graphic_design/closed_blinds.jpg);}
+.gd-2 {background-image: url(images/graphic_design/painting_2.jpg);}
+.gd-3 {background-image: url(images/graphic_design/painting_3.jpg);}
+.gd-4 {background-image: url(images/graphic_design/painting_4.jpg);}
+.gd-5 {background-image: url(images/graphic_design/painting_5.jpg);}
+.gd-6 {background-image: url(images/graphic_design/painting_6.jpg);}
+.gd-7 {background-image: url(images/graphic_design/painting_7.jpg);}
+
+.sketch-1 {background-image: url(images/sketch/cube_tenticles.jpg);}
+.sketch-2 {background-image: url(images/sketch/gem.jpg);}
+.sketch-3 {background-image: url(images/sketch/closed_blinds.jpg);}
+.sketch-4 {background-image: url(images/sketch/closed_blinds.jpg);}
+.sketch-5 {background-image: url(images/sketch/closed_blinds.jpg);}
 
 
 
@@ -152,6 +202,8 @@ img {
 
 
 @media (min-width: 1000px) {
+
+
 
 
 }
