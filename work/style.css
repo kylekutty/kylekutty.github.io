@@ -105,8 +105,9 @@ h2 {
 
 
 img {
-	min-width: 100%;
-	min-height: 100%;
+	width: 100%;
+	height: auto;
+	background-position: center;
 }
 
 
@@ -160,7 +161,7 @@ img {
 .painting-6 {background-image: url(images/paintings/painting_6.jpg);}
 .painting-7 {background-image: url(images/paintings/painting_7.jpg);}
 
-.gd-1 {background-image: url(images/graphic_design/closed_blinds.jpg);}
+.gd-1 {background-image: url(images/graphic_design/closed_blinds_1.jpg);}
 .gd-2 {background-image: url(images/graphic_design/painting_2.jpg);}
 .gd-3 {background-image: url(images/graphic_design/painting_3.jpg);}
 .gd-4 {background-image: url(images/graphic_design/painting_4.jpg);}
@@ -194,8 +195,45 @@ img {
   padding: 5px;
 }
 
+.offset-1 {margin-left: 8.33%;}
+.offset-2 {margin-left: 16.66%;}
+.offset-3 {margin-left: 25%;}
 
 
+.project {
+	margin-top: 10%;
+
+}
+
+.project h1 {
+	font-size: 2em;
+	text-align: center;
+	letter-spacing: .15em;
+}
+
+.project p {
+	font-size: .9em;
+	color: #999;
+	line-height: 1.8em;
+	font-family: "Merriweather";
+}
+
+.project-image-bleed {
+	display: inline-block;
+	margin-top: 3em;
+	margin-bottom: 3em;
+	height: 40em;
+	overflow: hidden;
+}
+
+.project-image-reg {
+	display: inline-block;
+	margin-left: 8.33%;
+	margin-top: 3em;
+	margin-bottom: 3em;
+	width: 83.33%;
+	overflow: hidden;
+}
 
 
 
