@@ -26,6 +26,33 @@ h2 {
 	text-align: center;
 }
 
+h3 {
+	color: #666;
+	font-family: 'Lato';
+	font-size: 1em;
+	font-weight: 200;
+	margin-bottom: .2em;
+
+
+}
+
+h4 {
+	color: #333;
+	font-family: 'Lato';
+	font-size: .75em;
+	margin:0;
+
+}
+
+h5 {
+	color: #555;
+	font-family: 'Lato';
+	font-size: .75em;
+	margin:0;
+
+}
+
+
 .header {
 	position: fixed;
 	height: auto;
@@ -228,11 +255,23 @@ img {
 
 .project-image-reg {
 	display: inline-block;
-	margin-left: 8.33%;
+	margin-left: 25%;
 	margin-top: 3em;
 	margin-bottom: 3em;
-	width: 83.33%;
+	width: 50%;
 	overflow: hidden;
+}
+
+.project-image-art {
+	display: inline-block;
+	margin-left: 15%;
+	margin-top: 1em;
+	width: 70%;
+	overflow: hidden;
+}
+
+.art-title {
+	margin-left: 15%;
 }
 
 
