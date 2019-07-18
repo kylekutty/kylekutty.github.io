@@ -1,73 +1,73 @@
-<!DOCTYPE HTML>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name ="description" content"This is portfolio website for artist and designer Kyle Kutner.">
-        <meta name="language" content="English">
-        
-        <link rel="stylesheet" type="text/css" href="style.css">
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <link href="https://fonts.googleapis.com/css?family=Lato|Merriweather|Roboto+Slab|Roboto|Libre+Baskerville" rel="stylesheet">
-        
-        <title> 
-            Kyle Kutner
-        </title>
+    <!-- Favicons -->
+    <link href="img/favicon.png" rel="icon">
+    <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
-    </head>
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond&display=swap" rel="stylesheet">
 
-    <body>
-        <div class="header">
-            <div class="buffer">
-                <div>
-                    <a href="index.html">
-                        <h1 id="kyle-kutner">Kyle Kutner</h1>
-                    </a>
-                </div>
-                <div id="container" onclick="navOpen()">
-                    <div class="bar1"></div>
-                    <div class="bar2"></div>
-                    <div class="bar3"></div>
-                </div>
-            </div>
-            <div id="nav">
-                <div class="nav-container">
-                    <h2>Graphic Design</h2>
-                    <h2>Sketches &amp; Experiments</h2>
-                    <h2>About</h2>
-                </div>
-            </div>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <title>Kyle Kutner</title>
+  </head>
+  <body>
+    <div class="container fixed-top">
+
+      <div class="row black-bar justify-content-between">
+        <div class="col-6">
+          <a href="index.html"><h1>Kyle Kutner</h1></a>
         </div>
+        <div class="row">
+          <div class="col container navbar navbar-dark navbar-expand-sm">
+            <button class="navbar-toggler" type="button"
+              data-toggle="collapse" data-target="#myTogglerNav"
+              aria-controls="myTogglerNav"
+              aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>  
+            </button>
+            <div class="collapse navbar-collapse" id="myTogglerNav">
+              <div class="navbar-nav">
+                <a href="index.html"><h5 class="pl-sm-3 nav-item nav-link active" href="#">work</h5></a>
+                <a href="resumé.html"><h5 class="pl-sm-3 nav-item nav-link">resum&eacute;</h5></a>
+                <a href="about.html"><h5 class="pl-sm-3 nav-item nav-link" href="#">about</h5></a>
+              </div><!--navbar-->
+            </div><!--collapse-->
+          </div>
+        </div><!--row-->
+      </div><!--row-->
 
-        <div class="project">
-            <div class="col-10 offset-1">
-                <h1>Clean Cat Studios Logo Animation</h1>
-            </div>
+    </div><!--container-->
+
+    <div class="col-12 header-bar-buffer"></div>
+
+    <div class="container">
+    
+      <div class="col-12 space-after">
+        <h2 class="text-center">Clean Cat Animated Logo</h2>
+      </div>
+
+      <div class="col-8">
+                <iframe width="1080" height="720" style="border-width: 0px;"
+                    src="https://www.youtube.com/embed/JLbkd12DWdc">
+                </iframe>
+      </div>
 
     
 
+      <div class="container col-10 col-sm-8 space-after">
 
-            <!-- <video width="1920" height="1080" autoplay controls>
-                <source src="clean_cat.mp4" type="video/mp4">
-                <source src="clean_cat.ogg" type="video/ogg">
-            </video> -->
-
-
-            <div class="col-8 offset-2">
-                <iframe width="1080" height="720"
-                    src="https://www.youtube.com/embed/JLbkd12DWdc">
-                </iframe>
-            </div>
-
-            <div class="col-8 offset-2">
-                <p>This concept logo animation was created using After Effects and Cinema 4D and was based off of a nightmare I had.</p>
-            </div>
-
-        
-
-            
-
-
+        <div>
+            <p>This concept logo animation was created using After Effects and Cinema 4D and was based off of a nightmare I had.</p>
         </div>
+      </div>
+    </div><!--container-->
 
 
 
@@ -94,8 +94,10 @@
 
 
 
-
-
-
-
-    </body>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
